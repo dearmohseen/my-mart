@@ -20,6 +20,9 @@ export class LoginComponent {
         
     });
 
-  }
+   }
     
+    submitForm(value : any): void {
+        console.log(" Form Submitted Successfully " + value);
+    }
 }
