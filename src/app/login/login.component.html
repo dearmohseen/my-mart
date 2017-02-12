@@ -1,1 +1,20 @@
-<p> Please login to Application </p>
+<form class="loginform" [formGroup]="loginForm" (submit)="submitForm(loginForm.value)">
+<dl><div class="heading">Please login to Application</div></dl>
+<dl>
+	<dt>User Name:</dt>
+	<dd>
+	<input type="text" [(value)]="user.userName" formControlName="username"/>
+	<!-- <dx-text-box [maxLength]="25" [(value)]="user.userName" formControlName="username"></dx-text-box> -->
+	</dd>	
+	
+</dl>	
+<dl>
+	<dt><label>Password:</label></dt>
+		<dd><input type="password" [(value)]="user.password" formControlName="password"/></dd>
+</dl>	
+	<dl>
+	<dt></dt>
+		<dd><button type="submit">Submit</button></dd>
+	</dl>
+	
+</form>
