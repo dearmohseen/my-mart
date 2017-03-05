@@ -1,36 +1,27 @@
-<<<<<<< HEAD
 <form class="loginform" [formGroup]="loginForm" (submit)="submitForm(loginForm.value)">
-<dl><div class="heading">Please login to Application</div></dl>
-<dl>
-	<dt>User Name:</dt>
-	<dd>
-	<input type="text" [(value)]="user.userName" formControlName="username"/>
-	<!-- <dx-text-box [maxLength]="25" [(value)]="user.userName" formControlName="username"></dx-text-box> -->
-	</dd>	
-	
-</dl>	
-<dl>
-	<dt><label>Password:</label></dt>
-		<dd><input type="password" [(value)]="user.password" formControlName="password"/></dd>
-</dl>	
 	<dl>
-	<dt></dt>
-		<dd><button type="submit">Submit</button></dd>
+		<div class="heading">Please login to Application</div>
 	</dl>
-=======
-<p> Please login to Application </p>
-<form [formGroup]="loginForm" (ngSubmit)="submitForm(loginForm.value)">
-	<div class="form-group">
-		<label>User Name:</label>
-		<input class="form-control" type="text" [formControl]="loginForm.controls['username']">
-	</div>
-	<div class="form-group">
-		<label>Password:</label>
-		<input class="form-control" type="password" [formControl]="loginForm.controls['password']">
-	</div>
-	<div class="form-group">
-		<button class="btn btn-default" type="submit">Submit</button>
-	</div>
->>>>>>> branch 'master' of https://github.com/dearmohseen/angular.git
-	
+	<dl>
+		<dt>User Name:</dt>
+		<dd>
+			<input type="text" [(value)]="user.userName" formControlName="username" />
+			<!-- <dx-text-box [maxLength]="25" [(value)]="user.userName" formControlName="username"></dx-text-box> -->
+		</dd>
+
+	</dl>
+	<dl>
+		<dt>
+			<label>Password:</label>
+		</dt>
+		<dd>
+			<input type="password" [(value)]="user.password" formControlName="password" />
+		</dd>
+	</dl>
+	<dl>
+		<dt></dt>
+		<dd>
+			<button type="submit">Submit</button>
+		</dd>
+	</dl>
 </form>

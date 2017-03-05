@@ -20,6 +20,7 @@ import { routing } from './app.routing';
     ReactiveFormsModule,
     FormsModule,
     HttpModule,
+    routing,
     DxTextBoxModule,
     DevExtremeModule,
     HttpModule
