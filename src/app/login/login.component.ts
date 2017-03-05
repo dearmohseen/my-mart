@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { ReactiveFormsModule, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { DxTextBoxModule } from 'devextreme-angular';
 import { User } from '../shared/entity/user';
@@ -19,23 +20,11 @@ export class LoginComponent implements OnInit {
         this.buildForm();
     }
 
-<<<<<<< HEAD
     initializeUser(){
-        this.user = new User(0,"user123","passmmm","","","","","","");
+        this.user = new User(0,"user123","pass","","","","","","");
     }
-=======
-    this.loginForm = formBuilder.group({
-        
-        username : '',
-        password : ''
-        
-    });
-
-   }
->>>>>>> branch 'master' of https://github.com/dearmohseen/angular.git
     
-<<<<<<< HEAD
-    constructor( private formBuilder: FormBuilder ) { }
+    constructor( private formBuilder: FormBuilder,private router: Router ) { }
 
     buildForm(): void {
 
@@ -50,11 +39,12 @@ export class LoginComponent implements OnInit {
     }
 
 
-    submitForm( value: any): void {
-        console.log( " Username : " + value.username + " Password : " + value.password);
-=======
     submitForm(value : any): void {
-        console.log(" Form Submitted Successfully " + value);
->>>>>>> branch 'master' of https://github.com/dearmohseen/angular.git
+        console.log(" Form Submitted Successfully " + value.username + " password " + value.password);
+        if(value.username != undefined && value.password != undefined){
+            console.log(" Routing to Landing ")
+            this.router.navigate( ["landing"]);
+        }
+        
     }
 }
