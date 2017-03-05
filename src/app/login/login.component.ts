@@ -19,10 +19,22 @@ export class LoginComponent implements OnInit {
         this.buildForm();
     }
 
+<<<<<<< HEAD
     initializeUser(){
         this.user = new User(0,"user123","passmmm","","","","","","");
     }
+=======
+    this.loginForm = formBuilder.group({
+        
+        username : '',
+        password : ''
+        
+    });
+
+   }
+>>>>>>> branch 'master' of https://github.com/dearmohseen/angular.git
     
+<<<<<<< HEAD
     constructor( private formBuilder: FormBuilder ) { }
 
     buildForm(): void {
@@ -40,5 +52,9 @@ export class LoginComponent implements OnInit {
 
     submitForm( value: any): void {
         console.log( " Username : " + value.username + " Password : " + value.password);
+=======
+    submitForm(value : any): void {
+        console.log(" Form Submitted Successfully " + value);
+>>>>>>> branch 'master' of https://github.com/dearmohseen/angular.git
     }
 }

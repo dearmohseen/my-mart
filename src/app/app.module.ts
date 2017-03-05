@@ -18,7 +18,8 @@ import { LoginComponent } from './login/login.component';
     FormsModule,
     HttpModule,
     DxTextBoxModule,
-    DevExtremeModule
+    DevExtremeModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent],
