@@ -24,7 +24,11 @@ export class LoginComponent implements OnInit {
         this.user = new User(0,"user123","pass","","","","","","");
     }
     
+<<<<<<< HEAD
     constructor( private formBuilder: FormBuilder,private router: Router ) { }
+=======
+    constructor( private formBuilder: FormBuilder ) { }
+>>>>>>> branch 'master' of https://github.com/dearmohseen/angular.git
 
     buildForm(): void {
 
@@ -41,10 +45,13 @@ export class LoginComponent implements OnInit {
 
     submitForm(value : any): void {
         console.log(" Form Submitted Successfully " + value.username + " password " + value.password);
+<<<<<<< HEAD
         if(value.username != undefined && value.password != undefined){
             console.log(" Routing to Landing ")
             this.router.navigate( ["landing"]);
         }
         
+=======
+>>>>>>> branch 'master' of https://github.com/dearmohseen/angular.git
     }
 }
