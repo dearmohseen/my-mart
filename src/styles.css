@@ -1,23 +1,2 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-	background-color: #d4f3f7;
-	display:inline;
-}
-
-.heading{
-	font-size: 30px;
-	font-weight: bold;
-}
-
-dl{
-	display:block;
-}
-
-dt {
-	display:inline;
-}
-
-dd {
-	display:inline;
-}
-
+@import "~bootstrap/dist/css/bootstrap.css";

@@ -1,38 +1,28 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-import { DxTextBoxModule, DevExtremeModule, DxButtonModule } from 'devextreme-angular';
-import { HttpModule } from '@angular/http';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
-import { LandingComponent } from './landing/landing.component';
-import { routing } from './app.routing';
-import { AddUserComponent } from './adduser/adduser.component';
+import { AddTutorialComponent } from './components/add-tutorial/add-tutorial.component';
+import { TutorialDetailsComponent } from './components/tutorial-details/tutorial-details.component';
+import { TutorialsListComponent } from './components/tutorials-list/tutorials-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    LandingComponent,
-    AddUserComponent
+    AddTutorialComponent,
+    TutorialDetailsComponent,
+    TutorialsListComponent
   ],
   imports: [
     BrowserModule,
-    ReactiveFormsModule,
+    AppRoutingModule,
     FormsModule,
-    HttpModule,
-    routing,
-    DxTextBoxModule,
-    DevExtremeModule,
-    DxButtonModule,
-    HttpModule
+    HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent],
-  entryComponents: [
-    LoginComponent,
-    AddUserComponent
-  ]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

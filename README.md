@@ -1,31 +1,72 @@
-# Angularsample
+# Angular 16 example project: CRUD with Rest API
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
+Build an Angular 16 CRUD example App to consume Rest APIs, display, modify & search data.
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Tutorial Application in that:
+- Each Tutorial has id, title, description, published status.
+- We can create, retrieve, update, delete Tutorials.
+- There is a Search bar for finding Tutorials by title.
 
-## Code scaffolding
+![angular-16-crud-example](angular-16-crud-example.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+Run `ng serve --port 8081` for a dev server. Navigate to `http://localhost:8081/`. The app will automatically reload if you change any of the source files.
 
-## Build
+For instruction, please visit:
+> [Angular 16 CRUD example with Rest API](https://www.bezkoder.com/angular-16-crud-example/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+More Practice:
+> [Angular 16 Pagination example](https://www.bezkoder.com/angular-16-pagination-ngx/)
 
-## Running unit tests
+> [Angular 16 JWT Authentication & Authorization example](https://www.bezkoder.com/angular-16-jwt-auth/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+> [Angular 16 File upload example with Progress bar](https://www.bezkoder.com/angular-16-file-upload/)
 
-## Running end-to-end tests
+> [Angular 16 Form Validation example](https://www.bezkoder.com/angular-16-form-validation/)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+Fullstack with Node:
 
-## Deploying to GitHub Pages
+> [Angular 16 + Node Express + MySQL example](https://www.bezkoder.com/angular-16-node-js-express-mysql/)
 
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
+> [Angular 16 + Node Express + PostgreSQL example](https://www.bezkoder.com/angular-16-node-js-express-postgresql/)
 
-## Further help
+> [Angular 16 + Node Express + MongoDB example](https://www.bezkoder.com/angular-16-node-js-express-mongodb/)
 
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+> [Angular 16 + Node Express: File upload example](https://www.bezkoder.com/angular-16-node-express-file-upload/)
+
+Fullstack with Spring Boot:
+
+> [Angular 16 + Spring Boot example](https://www.bezkoder.com/spring-boot-angular-16-crud/)
+
+> [Angular 16 + Spring Boot + MySQL example](https://www.bezkoder.com/spring-boot-angular-16-mysql/)
+
+> [Angular 16 + Spring Boot + PostgreSQL example](https://www.bezkoder.com/spring-boot-angular-16-postgresql/)
+
+> [Angular 16 + Spring Boot + MongoDB example](https://www.bezkoder.com/spring-boot-angular-16-mongodb/)
+
+> [Angular 16 + Spring Boot: File upload example](https://www.bezkoder.com/angular-16-spring-boot-file-upload/)
+
+Fullstack with Django:
+> [Angular + Django example](https://www.bezkoder.com/django-angular-13-crud-rest-framework/)
+
+> [Angular + Django + MySQL](https://www.bezkoder.com/django-angular-mysql/)
+
+> [Angular + Django + PostgreSQL](https://www.bezkoder.com/django-angular-postgresql/)
+
+> [Angular + Django + MongoDB](https://www.bezkoder.com/django-angular-mongodb/)
+
+Security:
+> [Angular 16 + Spring Boot: JWT Authentication and Authorization example](https://www.bezkoder.com/angular-16-spring-boot-jwt-auth/)
+
+> [Angular 16 + Node.js Express: JWT Authentication and Authorization example](https://www.bezkoder.com/node-js-angular-16-jwt-auth/)
+
+Serverless with Firebase:
+> [Angular 16 Firebase CRUD with Realtime DataBase](https://www.bezkoder.com/angular-16-firebase-crud/)
+
+> [Angular 16 Firestore CRUD example](https://www.bezkoder.com/angular-16-firestore-crud/)
+
+> [Angular 16 Firebase Storage: File Upload/Display/Delete example](https://www.bezkoder.com/angular-16-firebase-storage/)
+
+Integration (run back-end & front-end on same server/port)
+> [How to integrate Angular with Node Restful Services](https://bezkoder.com/integrate-angular-12-node-js/)
+
+> [How to Integrate Angular with Spring Boot Rest API](https://bezkoder.com/integrate-angular-12-spring-boot/)
