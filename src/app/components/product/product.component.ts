@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PRODUCTS } from '../../constant/mock-products';
+import { SAMPLE_PRODUCTS } from '../../constant/mock-products';
 import { Product } from "../../models/product";
 
 @Component({
@@ -9,5 +9,5 @@ import { Product } from "../../models/product";
 })
 export class ProductComponent {
  
-	products: Product[] = PRODUCTS;
+	products: Product[] = SAMPLE_PRODUCTS;
 }

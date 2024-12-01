@@ -1,6 +1,6 @@
 import { Product } from '../models/product';
 
-export const PRODUCTS: Product[] = [
+export const SAMPLE_PRODUCTS: Product[] = [
 	{
 		"title": "Brown eggs",
 		"type": "dairy",
