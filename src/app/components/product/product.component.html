@@ -1,12 +1,19 @@
 <H5>PRODUCTS</H5>
 <table border="1">
-<tr *ngFor="let product of products">
-    <td>{{product.title}}</td>
-    <td>{{product.type}}</td>
-    <td>{{product.description}}</td>
-    <td>{{product.price}}</td>
-    <td>{{product.rating}}</td>
-</tr>
+	<tr>
+		<th>Title</th>
+		<th>Type</th>
+		<th>Description</th>
+		<th>Price</th>
+		<th>Rating</th>
+	</tr>
+	<tr *ngFor="let product of products">
+		<td>{{product.title}}</td>
+		<td>{{product.type}}</td>
+		<td>{{product.description}}</td>
+		<td>{{product.price}}</td>
+		<td>{{product.rating}}</td>
+	</tr>
 </table>
 <!-- <li *ngFor="let product of products">
  {{product.description}}
